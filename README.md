@@ -65,11 +65,16 @@ version instead of silently misreading it.
 
 Python ≥ 3.10 and `pipx` are required. **Windows (PowerShell):** install `pipx` with `py -m pip install --user pipx`, run `py -m pipx ensurepath`, then reopen the terminal. **Linux (Debian/Ubuntu):** run `sudo apt install pipx python3-venv` and `pipx ensurepath`; reopen the terminal. Other Linux distributions should install `pipx` using their package manager.
 
-```bash
-pipx install "devin-search @ git+https://github.com/Icaro0310/devin-search.git"
-```
-
-(PyPI release is on the M2 roadmap; Python ≥ 3.10 required.)
+<!-- DIST-STATUS:BEGIN — generated from devin-powerups/registry.json -->
+> **Source-only distribution.** This tool is not yet published to PyPI.
+> Install from source:
+>
+> ```bash
+> pipx install git+https://github.com/Icaro0310/devin-search.git
+> # or
+> uv tool install git+https://github.com/Icaro0310/devin-search.git
+> ```
+<!-- DIST-STATUS:END -->
 
 ## Usage
 
