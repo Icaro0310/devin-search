@@ -71,7 +71,7 @@ version instead of silently misreading it.
 
 ## Install
 
-Requires Python ≥ 3.10 and `pipx` or `uv`. Per-OS setup lives in the platform guides: [Linux](README.linux.md) · [Personal Windows](README.windows.md) · [Corporate Windows](README.corporate-windows.md).
+Requires Python ≥ 3.10 and `pipx` or `uv`: `uv tool install devin-search` or `pip install devin-search`. Per-OS setup lives in the platform guides: [Linux](README.linux.md) · [Personal Windows](README.windows.md) · [Corporate Windows](README.corporate-windows.md).
 
 
 ## Usage
