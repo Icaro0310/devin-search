@@ -1,5 +1,32 @@
 <div align="center">
 
+# devin-search — MOVED
+
+**This repository was absorbed into the
+[`devin-explore`](https://github.com/Icaro0310/devin-explore) monorepo.**
+
+The code now lives at `packages/search/` and the CLI is unchanged:
+`pip install devin-search` / `uv tool install devin-search` still
+installs the same package, now released from devin-explore.
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-explore
+cd devin-explore/packages/search
+```
+
+The repository is archived; open issues and PRs belong to devin-explore.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <img src="assets/banner.svg" alt="devin-search" width="100%"/>
 
 <a href="https://github.com/Icaro0310/devin-search/actions/workflows/ci.yml"><img src="https://github.com/Icaro0310/devin-search/actions/workflows/ci.yml/badge.svg" alt="ci"/></a>
@@ -194,3 +221,5 @@ instant ranked lookup across all sessions, without exporting anything.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+</details>
